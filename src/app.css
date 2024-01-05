@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'PoppinsLight';
+  src: url('../src/assets/fonts/Poppins-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PoppinsRegular';
+  src: url('../src/assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PoppinsMedium';
+  src: url('../src/assets/fonts/Poppins-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PoppinsSemiBold';
+  src: url('../src/assets/fonts/Poppins-SemiBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'PoppinsBold';
+  src: url('../src/assets/fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OswaldVar';
+  src: url('../src/assets/fonts/Oswald-VariableFont_wght.ttf')
+    format('truetype');
+}
