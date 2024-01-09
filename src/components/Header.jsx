@@ -1,5 +1,5 @@
 import { useState } from 'preact/hooks';
-import moobLogo from '../assets/images/mediamoob-logo.webp';
+import moobLogo from '/images/mediamoob-logo.webp';
 import { OpenedBox, MenuVertical } from '../utils/svgIcons';
 
 export default function Header() {
