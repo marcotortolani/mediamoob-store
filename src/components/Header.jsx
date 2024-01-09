@@ -1,14 +1,21 @@
 import { useState } from 'preact/hooks';
+import { useNavigate } from 'react-router-dom';
 import moobLogo from '/images/mediamoob-logo.webp';
 import { OpenedBox, MenuVertical } from '../utils/svgIcons';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigate = useNavigate();
+
+  function handleClick() {
+    navigate('/');
+  }
+
   return (
-    <header className=' w-full h-16 px-2 py-4 flex items-center justify-between bg-black'>
-      <div className=' w-1/3 ml-2'>
+    <header className=' z-50 w-full h-16 px-2 py-4 flex items-center justify-between bg-black'>
+      <button className=' w-1/3 ml-2' onClick={handleClick}>
         <img src={moobLogo} alt='Media Moob Logo Image' />
-      </div>
+      </button>
       <div className=' w-1/3 flex items-center gap-2 '>
         <div className=' w-5/6 h-10 py-2 flex items-center justify-center gap-0 '>
           <OpenedBox stroke='#5A957A' />
@@ -25,7 +32,7 @@ export default function Header() {
       </div>
 
       {isMenuOpen && (
-        <div className=' absolute top-0 right-0  w-1/2 h-screen bg-moobMint bg-opacity-80 '>
+        <div className=' z-20 absolute top-0 right-0  w-1/2 h-screen bg-moobMint bg-opacity-80 '>
           <button
             className=' p-2 bg-slate-200 rounded-full'
             onClick={() => setIsMenuOpen(false)}

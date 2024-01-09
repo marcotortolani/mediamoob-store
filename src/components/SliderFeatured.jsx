@@ -31,10 +31,8 @@ export default function SliderFeatured({
     },
   };
 
-  // function handleClick() {}
-
   return (
-    <section className=' z-30 relative top-0  w-screen h-full lg:h-screen lg:max-h-[700px] pb-0 lg:pb-0 flex flex-col items-center justify-center'>
+    <section className=' z-0 relative top-0  w-full h-full p-2 pb-0 flex flex-col items-center justify-center'>
       <Swiper
         ref={sliderRef}
         slidesPerView={slidesPerView}
@@ -50,14 +48,14 @@ export default function SliderFeatured({
         pagination={pagination}
         modules={[Autoplay, Navigation]}
         navigation={false}
-        className='mySwiper w-full h-full px-0 overflow-hidden  flex flex-col items-center justify-center gap-0 '
+        className='mySwiper w-full sm:max-w-[500px] lg:max-w-[700px]  h-full px-0 overflow-hidden  flex flex-col items-center justify-center gap-2 '
       >
         {slides?.map((slide, index) => (
           <SwiperSlide
-            className={` w-full min-w-[160px] h-auto aspect-[4/3] relative flex flex-col items-center justify-center `}
+            className={` w-full min-w-[160px]  h-auto aspect-[3/2] lg:aspect-[16/9] relative flex flex-col items-center justify-center `}
             key={index}
           >
-            <div className=' w-full h-full p-2 flex flex-col items-center justify-center'>
+            <div className=' w-full h-full  flex flex-col items-center justify-center'>
               <div className='relative w-full h-full rounded-xl'>
                 <img
                   className=' w-full h-full object-cover rounded-[inherit]'
@@ -79,7 +77,6 @@ export default function SliderFeatured({
                     <div className=' w-full flex justify-end'>
                       <a
                         className=' px-2 py-1 bg-moobSky text-xs text-white uppercase rounded-full'
-                        // onClick={() => handleClick(slide.link)}
                         href={slide.link}
                         target='_blank'
                       >
