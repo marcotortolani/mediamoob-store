@@ -54,13 +54,13 @@ export default function SliderFeatured({
       >
         {slides?.map((slide, index) => (
           <SwiperSlide
-            className={` w-full min-w-[160px] h-full relative flex flex-col items-center justify-center `}
+            className={` w-full min-w-[160px] h-auto aspect-[4/3] relative flex flex-col items-center justify-center `}
             key={index}
           >
-            <div className=' w-full h-fit p-2  flex flex-col items-center justify-center'>
+            <div className=' w-full h-full p-2 flex flex-col items-center justify-center'>
               <div className='relative w-full h-full rounded-xl'>
                 <img
-                  className=' rounded-[inherit]'
+                  className=' w-full h-full object-cover rounded-[inherit]'
                   src={
                     slide.coverImageLarge
                       ? slide.coverImageLarge
