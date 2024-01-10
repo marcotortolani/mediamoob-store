@@ -8,7 +8,7 @@
       "coverImageLarge": "/images/bg-alta-epamujer.webp",
       "coverImageLogo": "/images/epamujer-portales.webp",
       "mockup": "/images/trivia-epamujer-mockup.webp",
-      "bgColor": "#A260D0"
+      "bgColor": "#2FB8FF"
     }
   ],
 
@@ -33,7 +33,7 @@
       "coverImageLarge": "",
       "coverImageLogo": "/images/maradona-juegos.webp",
       "mockup": "/images/trivia-maradona-mockup.webp",
-      "bgColor": "#528ad0"
+      "bgColor": "#000000"
     },
     {
       "name": "Recetas LXLC",
@@ -43,7 +43,7 @@
       "coverImageLarge": "",
       "coverImageLogo": "/images/hoyquecocino-juegos.webp",
       "mockup": "/images/trivia-lxlc-mockup.webp",
-      "bgColor": "#D2Aa20"
+      "bgColor": "#E08008"
     }
   ],
   "trivias": [
