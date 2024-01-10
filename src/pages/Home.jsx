@@ -1,5 +1,6 @@
+import ListLatestGames from '../components/ListLatestGames';
 import SliderFeatured from '../components/SliderFeatured';
-import SliderPortales from '../components/SliderPortales';
+import SliderPortales from '../components/ScrollPortales';
 
 const featuredElements = [
   {
@@ -46,7 +47,7 @@ const portalesElements = [
     bgColor: '#A260D0',
   },
   {
-    name: 'Maradona Juegos',
+    name: 'Maradona Plataforma de Juegos',
     dateCreated: '01/11/2023',
     shortDescription: 'Plataforma de juegos de Diego Maradona',
     link: 'https://maradona-games-selector.vercel.app/',
@@ -88,6 +89,40 @@ const portalesElements = [
   },
 ];
 
+const gamesElements = [
+  {
+    name: 'Maradona Plataforma de Juegos',
+    dateCreated: '01/11/2023',
+    shortDescription: 'Plataforma de juegos de Diego Maradona',
+    link: 'https://maradona-games-selector.vercel.app/',
+    coverImageLarge: '',
+    coverImageLogo: '/images/maradona-juegos.webp',
+    mockup: '/images/trivia-maradona-mockup.webp',
+    bgColor: '#528ad0',
+  },
+  {
+    name: 'Recetas LXLC',
+    dateCreated: '05/02/2023',
+    shortDescription:
+      'App para recomendar recetas de cocina según perfilado del usuario',
+    link: 'https://locoxlacocina-app.vercel.app',
+    coverImageLarge: '',
+    coverImageLogo: '/images/hoyquecocino-juegos.webp',
+    mockup: '/images/trivia-lxc-mockup.webp',
+    bgColor: '#D2Aa20',
+  },
+  {
+    name: 'Maradona Juegos',
+    dateCreated: '01/11/2023',
+    shortDescription: 'Plataforma de juegos de Diego Maradona',
+    link: 'https://maradona-games-selector.vercel.app/',
+    coverImageLarge: '',
+    coverImageLogo: '/images/maradona-juegos.webp',
+    mockup: '/images/trivia-maradona-mockup.webp',
+    bgColor: '#528ad0',
+  },
+];
+
 export default function Home() {
   return (
     <main className=' z-0 w-screen font-poppinsLight flex flex-col items-center '>
@@ -95,13 +130,13 @@ export default function Home() {
         slides={featuredElements}
         slidesPerView={1}
         delayPerView={5000}
-        spaceBetweenSlides={0}
+        spaceBetweenSlides={20}
         colorBullets={'default'}
         sizeBullets={'sm'}
       />
-      <SliderPortales
-        slides={portalesElements}
-      />
+      <SliderPortales slides={portalesElements} />
+
+      <ListLatestGames listElements={gamesElements} />
     </main>
   );
 }

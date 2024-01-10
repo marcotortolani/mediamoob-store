@@ -32,7 +32,7 @@ export default function SliderFeatured({
   };
 
   return (
-    <section className=' z-0 relative top-0  w-full h-full p-2 pb-0 flex flex-col items-center justify-center'>
+    <section className=' z-0 relative top-0  w-full h-full py-2 pb-0 flex flex-col items-center justify-center'>
       <Swiper
         ref={sliderRef}
         slidesPerView={slidesPerView}
@@ -48,7 +48,7 @@ export default function SliderFeatured({
         pagination={pagination}
         modules={[Autoplay, Navigation]}
         navigation={false}
-        className='mySwiper w-full sm:max-w-[500px] lg:max-w-[700px]  h-full px-0 overflow-hidden  flex flex-col items-center justify-center gap-2 '
+        className='mySwiper w-full sm:max-w-[500px] lg:max-w-[700px]  h-full px-2 overflow-hidden  flex flex-col items-center justify-center gap-2 '
       >
         {slides?.map((slide, index) => (
           <SwiperSlide
