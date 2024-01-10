@@ -22,15 +22,15 @@ export default function SliderPortales({ slides }) {
                 }}
                 className={` ${i === 0 ? 'px-0 pl-2 ' : 'px-0 pl-0'} ${
                   i === slides.length - 1 ? 'pr-2 ' : ''
-                } w-[40vw] max-w-[160px] aspect-[3/4] h-full  rounded-xl `}
+                } w-[40vw] max-w-[160px] aspect-[3/4] pb-2 overflow-y-hidden `}
               >
                 <a
-                  className='w-full h-full rounded-[inherit]'
+                  className='w-full h-full flex flex-col items-start'
                   href={slide.link}
                   target='_blank'
                 >
                   <img
-                    className=' w-full h-full object-cover rounded-[inherit]'
+                    className=' w-full h-full object-cover rounded-xl'
                     src={slide.coverImageLogo}
                     alt={`${slide.name} cover and logo`}
                   />
