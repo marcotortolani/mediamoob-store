@@ -1,4 +1,6 @@
 import { useNavigate } from 'react-router-dom';
+import { VideoIcon } from '../utils/svgIcons';
+
 export default function GridReels({ gridElements }) {
   const navigate = useNavigate();
 
@@ -33,6 +35,12 @@ export default function GridReels({ gridElements }) {
                       src={el.coverImageLogo}
                       alt={`${el.name} cover and logo`}
                     />
+                    <div className='z-10 absolute top-0 w-full h-full bg-black bg-opacity-50 content-normal'/>
+                        
+                    
+                    <div className=' z-20 absolute top-0 w-1/3 h-full flex items-center justify-center '>
+                        <VideoIcon />
+                    </div>
                   </div>
 
                   <span className='  font-poppinsLight text-[0.6rem]  line-clamp-1'>

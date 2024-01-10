@@ -224,18 +224,18 @@ export function TriviaIcon({ stroke = '#FFF' }) {
 export function VideoIcon({ stroke = '#FFF' }) {
   return (
     <svg viewBox='0 0 48 48' xmlns='http://www.w3.org/2000/svg' fill={stroke}>
-      <g id='SVGRepo_bgCarrier' stroke-width='0'></g>
+      <g id='SVGRepo_bgCarrier' strokeWidth='0'></g>
       <g
         id='SVGRepo_tracerCarrier'
-        stroke-linecap='round'
-        stroke-linejoin='round'
+        strokeLinecap='round'
+        strokeLinejoin='round'
       ></g>
       <g id='SVGRepo_iconCarrier'>
-        <g id='Layer_2' data-name='Layer 2'>
-          <g id='invisible_box' data-name='invisible box'>
+        <g id='Layer_2' dataName='Layer 2'>
+          <g id='invisible_box' dataName='invisible box'>
             <rect width='48' height='48' fill='none'></rect>
           </g>
-          <g id='icons_Q2' data-name='icons Q2'>
+          <g id='icons_Q2' dataName='icons Q2'>
             <g>
               <path d='M34.6,23.3,18.1,13.2c-.6-.4-1.1-.1-1.1.6V34.2c0,.7.5,1,1.1.6L34.6,24.7A.8.8,0,0,0,34.6,23.3Z'></path>
               <path d='M24,2A22,22,0,1,0,46,24,21.9,21.9,0,0,0,24,2Zm0,40A18,18,0,1,1,42,24,18.1,18.1,0,0,1,24,42Z'></path>
