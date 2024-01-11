@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { VideoIcon } from '../utils/svgIcons';
+import { VideoIcon, JoystickIcon } from '../utils/svgIcons';
 
 export default function GridReels({ gridElements }) {
   const navigate = useNavigate();
@@ -9,12 +9,12 @@ export default function GridReels({ gridElements }) {
   }
 
   return (
-    <section className=' z-30 relative top-0 w-screen h-full bg-moobSky bg-opacity-70 mt-2 p-4 flex items-center justify-center'>
+    <section className=' z-30 relative top-0 w-screen h-full overflow-hidden bg-moobSky bg-opacity-70 mt-2 p-4 flex items-center justify-center'>
       <div className='w-full flex flex-col items-start justify-center gap-2  '>
         <h3 className=' uppercase text-sm font-poppinsRegular'>
           Reels - Videos
         </h3>
-        <div className='w-full max-w-fit overflow-x-scroll h-fit content-normal'>
+        <div className='w-full max-w-fit h-fit content-normal'>
           <ul className=' w-fit h-full grid grid-cols-3 gap-2 md:gap-4'>
             {gridElements.map((el, i) => (
               <li
@@ -40,6 +40,7 @@ export default function GridReels({ gridElements }) {
                     
                     <div className=' z-20 absolute top-0 w-1/3 h-full flex items-center justify-center '>
                         <VideoIcon />
+                        <JoystickIcon />
                     </div>
                   </div>
 
