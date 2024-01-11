@@ -246,7 +246,7 @@ const reelsElements = [
 
 export default function Home() {
   return (
-    <main className=' z-0 relative top-16 w-screen font-poppinsLight flex flex-col items-center '>
+    <main className=' z-0 relative top-16 w-screen overflow-x-hidden font-poppinsLight flex flex-col items-center '>
       <SliderFeatured
         slides={featuredElements}
         slidesPerView={1}
