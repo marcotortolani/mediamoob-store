@@ -12,7 +12,7 @@ export default function Header() {
   }
 
   return (
-    <header className=' fixed z-50 w-full h-16 md:h-24 px-2 md:px-6 py-2 flex items-center justify-between bg-black'>
+    <header className=' fixed z-50 w-screen h-16 md:h-24 px-2 md:px-6 py-2 flex items-center justify-between bg-black'>
       <button className=' w-1/3 min-w-28 max-w-40 h-full flex items-center justify-center ml-2' onClick={handleClick}>
         <img className=' w-full h-auto' src={moobLogo} alt='Media Moob Logo Image' />
       </button>
