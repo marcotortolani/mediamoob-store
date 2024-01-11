@@ -28,3 +28,12 @@
   src: url('../src/assets/fonts/Oswald-VariableFont_wght.ttf')
     format('truetype');
 }
+
+.no-scrollbar::-webkit-scrollbar{
+  /* overflow-x: hidden !important; */
+  display: none;
+  
+}
+.no-vertical-scrollbar{
+  overflow-y: hidden !important;
+}

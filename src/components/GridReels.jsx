@@ -22,14 +22,14 @@ export default function GridReels({ gridElements }) {
                 onClick={() => {
                   setIndexPag(i);
                 }}
-                className={` col-span-1 relative max-w-[160px] aspect-[5/7] overflow-y-hidden  `}
+                className={` col-span-1 relative max-w-[160px] aspect-[5/7] overflow-hidden  `}
               >
                 <a
                   className=' w-full h-full pb-1 flex flex-col items-start gap-0'
                   href={el.link}
                   target='_blank'
                 >
-                  <div className='relative w-full h-full flex justify-center  overflow-y-hidden bg-gray-400 rounded-xl'>
+                  <div className='relative w-full h-full flex justify-center  overflow-hidden bg-gray-400 rounded-xl'>
                     <img
                       className=' w-full h-full object-cover rounded-xl'
                       src={el.coverImageLogo}

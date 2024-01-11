@@ -12,7 +12,7 @@ export default function SliderPortales({ slides }) {
         <h3 className=' pl-2 uppercase text-sm font-poppinsRegular'>
           Portales Test
         </h3>
-        <div className='w-full max-w-fit overflow-x-scroll h-fit content-normal'>
+        <div className='w-full max-w-fit overflow-x-scroll no-scrollbar h-fit content-normal'>
           <ul className=' w-fit h-full flex items-center justify-center gap-2 md:gap-4'>
             {slides.map((slide, i) => (
               <li
