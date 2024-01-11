@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { VideoIcon2, JoystickIcon, VideoIcon } from '../utils/svgIcons';
+import { VideoIcon } from '../utils/svgIcons';
 
 export default function GridReels({ gridElements }) {
   const navigate = useNavigate();
@@ -39,7 +39,7 @@ export default function GridReels({ gridElements }) {
                         
                     
                     <div className=' z-20 absolute top-0 w-1/3 h-full flex items-center justify-center '>
-                        <VideoIcon2 />
+                        <VideoIcon />
                     </div>
                   </div>
 

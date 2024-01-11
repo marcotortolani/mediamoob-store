@@ -2,6 +2,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import * as P from './pages/index';
 import './app.css';
 import Header from './components/Header';
+import DownbarNav from './components/DownbarNav';
+
 
 export function App() {
   return (
@@ -16,9 +18,9 @@ export function App() {
           <Route path='/reels' element={<P.Reels />} />
           <Route path='/terms' element={<P.TerminosYCondiciones />} />
         </Routes>
+        <DownbarNav />
       </BrowserRouter>
 
-      <footer></footer>
     </>
   );
 }
