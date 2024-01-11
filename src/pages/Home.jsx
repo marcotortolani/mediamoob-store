@@ -262,6 +262,7 @@ export default function Home() {
       <SliderTrivias slides={triviasElements} />
 
       <GridReels gridElements={reelsElements} />
+      <div className='w-full h-16 content-normal' />
     </main>
   );
 }

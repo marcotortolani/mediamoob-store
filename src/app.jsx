@@ -4,7 +4,6 @@ import './app.css';
 import Header from './components/Header';
 import DownbarNav from './components/DownbarNav';
 
-
 export function App() {
   return (
     <>
@@ -20,7 +19,7 @@ export function App() {
         </Routes>
         <DownbarNav />
       </BrowserRouter>
-
+      <footer></footer>
     </>
   );
 }

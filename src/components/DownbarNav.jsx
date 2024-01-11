@@ -22,7 +22,7 @@ export default function DownbarNav() {
     navigate(path);
   }
   return (
-    <footer className=' fixed bottom-0 z-50 w-full h-[6vh] flex items-center justify-center bg-black text-white'>
+    <div className=' fixed bottom-0 z-50 w-full h-[6vh] flex items-center justify-center bg-black text-white'>
       <ul className=' w-5/6 h-full py-2 flex items-center justify-center gap-3 '>
         {navbarElements.map((el, i) => (
           <li
@@ -41,6 +41,6 @@ export default function DownbarNav() {
           </li>
         ))}
       </ul>
-    </footer>
+    </div>
   );
 }
