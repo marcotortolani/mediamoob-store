@@ -39,7 +39,6 @@ export default function GridReels({ gridElements }) {
                         
                     
                     <div className=' z-20 absolute top-0 w-1/3 h-full flex items-center justify-center '>
-                        <VideoIcon />
                         <VideoIcon2 />
                     </div>
                   </div>

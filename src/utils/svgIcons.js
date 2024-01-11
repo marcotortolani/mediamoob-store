@@ -286,6 +286,8 @@ export function VideoIcon2({ stroke = '#FFF' }) {
   return (
     <svg
       version='1.1'
+      height='200px'
+      width='200px'
       id='_x32_'
       xmlns='http://www.w3.org/2000/svg'
       viewBox='0 0 512 512'
