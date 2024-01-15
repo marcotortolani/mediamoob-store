@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, HashRouter, Routes, Route } from 'react-router-dom';
 import * as P from './pages/index';
 import './app.css';
 import Header from './components/Header';
@@ -7,7 +7,7 @@ import DownbarNav from './components/DownbarNav';
 export function App() {
   return (
     <div className=' w-full overflow-x-hidden flex justify-center'>
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Routes>
           <Route path='/' element={<P.Home />} />
@@ -18,7 +18,7 @@ export function App() {
           <Route path='/terms' element={<P.TerminosYCondiciones />} />
         </Routes>
         <DownbarNav />
-      </BrowserRouter>
+      </HashRouter>
       <footer></footer>
     </div>
   );
