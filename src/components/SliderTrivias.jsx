@@ -17,9 +17,6 @@ export default function SliderTrivias({ slides }) {
             {slides.map((slide, i) => (
               <li
                 key={i}
-                onClick={() => {
-                  setIndexPag(i);
-                }}
                 className='relative w-[40vw] max-w-[160px] aspect-[2/3] pb-2 overflow-y-hidden'
               >
                 <a
