@@ -246,7 +246,7 @@ const reelsElements = [
 
 export default function Home() {
   return (
-    <main className=' z-0 relative top-16 w-screen overflow-x-hidden font-poppinsLight flex flex-col items-center '>
+    <main className=' z-0 relative mt-16 md:mt-24 lg:mt-28 w-screen overflow-x-hidden font-poppinsLight flex flex-col items-center  '>
       <SliderFeatured
         slides={featuredElements}
         slidesPerView={1}
@@ -262,7 +262,7 @@ export default function Home() {
       <SliderTrivias slides={triviasElements} />
 
       <GridReels gridElements={reelsElements} />
-      <div className='w-full h-16 content-normal' />
+      <div className='w-full h-24 content-normal' />
     </main>
   );
 }

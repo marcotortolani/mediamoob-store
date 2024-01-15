@@ -1,3 +1,5 @@
+import LabelHeaderPage from '../components/LabelHeaderPage';
+
 const portalesElements = [
   {
     name: 'Epa Mujer',
@@ -128,24 +130,11 @@ const lang = { es: 'ES', en: 'GB', us: 'US', pt: 'PT' };
 
 export default function PortalesTest() {
   return (
-    <main className=' z-0 relative top-10 md:top-20 w-full md:w-[700px] h-full overflow-hidden font-poppinsLight flex flex-col items-center justify-center '>
-      <div className=' w-full h-20 px-6 pb-2 flex items-end justify-between bg-moobMint rounded-bl-3xl md:rounded-br-3xl'>
-        <h3 className=' pl-2 uppercase text-sm font-poppinsRegular'>
-          Portales Test
-        </h3>
-        <div className='w-1/6 min-w-14 flex items-center gap-2 '>
-          <span className=' font-poppinsMedium'>{lang.es}</span>
-          <div className='w-6'>
-            <img
-              src={`https://flagsapi.com/${lang.es}/flat/32.png`}
-              alt='Flag'
-            ></img>
-          </div>
-        </div>
-      </div>
+    <main className=' z-0 relative pt-8 md:pt-14 lg:pt-16 w-full md:w-[700px] h-fit overflow-y-hidden font-poppinsLight flex flex-col items-center justify-center '>
+      <LabelHeaderPage title='Portales Test' lang={lang.es} />
 
-      <div className='w-full h-fit p-2 flex items-center justify-center  content-normal'>
-        <ul className=' w-full h-full grid place-items-center grid-cols-3 md:grid-cols-4  gap-2 sm:gap-4 md:gap-5'>
+      <div className='w-full h-full p-2 pt-4 flex items-center justify-center  content-normal'>
+        <ul className=' w-full h-fit grid place-items-center grid-cols-3 md:grid-cols-4  gap-2 sm:gap-4 md:gap-5'>
           {portalesElements.map((el, i) => (
             <li
               key={i}

@@ -6,7 +6,7 @@ import DownbarNav from './components/DownbarNav';
 
 export function App() {
   return (
-    <div className=' w-screen overflow-x-hidden flex justify-center'>
+    <div className=' w-full overflow-x-hidden flex justify-center'>
       <BrowserRouter>
         <Header />
         <Routes>
