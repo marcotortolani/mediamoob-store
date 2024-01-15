@@ -103,6 +103,7 @@ const triviasElements = [
     mockup: '/images/trivia-maradona-mockup.webp',
     bgColor: '#528ad0',
   },
+  
 ];
 
 const lang = { es: 'ES', en: 'GB', us: 'US', pt: 'PT' };
@@ -113,7 +114,7 @@ export default function Trivias() {
       <LabelHeaderPage title='Memoob Trivias' lang={lang.es} />
 
       <div className='w-full h-full p-2 pt-4 flex items-center justify-center  content-normal'>
-        <ul className=' w-fit h-full pl-2 pr-2 grid place-items-center  grid-cols-3 md:grid-cols-4  gap-3 sm:gap-4 md:gap-5'>
+        <ul className=' w-fit h-full grid place-items-center  grid-cols-3 md:grid-cols-4  gap-2 sm:gap-4 md:gap-5'>
           {triviasElements.map((slide, i) => (
             <li
               key={i}
