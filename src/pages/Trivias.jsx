@@ -107,7 +107,7 @@ const triviasElements = [
 
 const lang = { es: 'ES', en: 'GB', us: 'US', pt: 'PT' };
 
-export default function PortalesTest() {
+export default function Trivias() {
   return (
     <main className=' z-0 relative pt-8 md:pt-14 lg:pt-16 w-full md:w-[700px] h-fit overflow-y-hidden font-poppinsLight flex flex-col items-center justify-center '>
       <LabelHeaderPage title='Memoob Trivias' lang={lang.es} />
