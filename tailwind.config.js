@@ -16,6 +16,10 @@ export default {
         moobMint: '#5A957A',
         moobSky: '#2FB8FF',
       },
+      screens: {
+        normal: { raw: '(min-height: 500px)' },
+        tall: { raw: '(min-height: 600px)' },
+      },
     },
   },
   plugins: [],

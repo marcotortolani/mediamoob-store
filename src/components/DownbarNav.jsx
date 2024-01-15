@@ -1,20 +1,5 @@
 import { useNavigate, useResolvedPath } from 'react-router-dom';
-
-import {
-  WebIcon,
-  JoystickIcon,
-  HomeIcon,
-  TriviasIcon,
-  VideoIcon,
-} from '../utils/svgIcons';
-
-const navbarElements = [
-  { name: 'Portales Test', icon: WebIcon, href: '/portales-test' },
-  { name: 'Memoob Games', icon: JoystickIcon, href: '/games' },
-  { name: 'Home', icon: HomeIcon, href: '/' },
-  { name: 'Memoob Trivias', icon: TriviasIcon, href: '/trivias' },
-  { name: 'Memoob Reels', icon: VideoIcon, href: '/reels' },
-];
+import { downbarNavData } from '../utils/staticData';
 
 export default function DownbarNav() {
   const navigate = useNavigate();
@@ -26,7 +11,7 @@ export default function DownbarNav() {
   return (
     <div className=' fixed lg:hidden bottom-0 z-50 w-full h-[6vh] flex items-center justify-center bg-black text-white'>
       <ul className=' w-5/6 h-full py-2 flex items-center justify-center gap-3 '>
-        {navbarElements.map((el, i) => (
+        {downbarNavData.map((el, i) => (
           <li key={i} className=' relative w-full h-full px-2  content-normal'>
             <button
               className={` w-full h-full`}
