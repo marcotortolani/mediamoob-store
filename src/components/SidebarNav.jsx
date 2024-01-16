@@ -34,10 +34,10 @@ export default function SidebarNav({ onOpen }) {
                 onClick={() => handleNavigate(el.href)}
                 className='w-full h-full flex items-center justify-end gap-3'
               >
-                <span className=' font-poppinsRegular text-xs md:text-sm'>
+                <span className='w-full font-poppinsRegular text-end text-base md:text-lg'>
                   {el.name}
                 </span>
-                <div className=' w-auto h-5 opacity-70'>
+                <div className='  w-8 h-8 opacity-70'>
                   <el.icon />
                 </div>
               </button>
@@ -55,7 +55,7 @@ export default function SidebarNav({ onOpen }) {
           className={` w-full h-[1px] bg-white bg-opacity-50 content-normal`}
         />
         <a
-          className='w-full text-center font-poppinsRegular text-xs md:text-sm'
+          className='w-full text-center font-poppinsRegular text-sm md:text-lg'
           href='https://memoob.com'
           target='_blank'
           rel='noopener noreferrer'
