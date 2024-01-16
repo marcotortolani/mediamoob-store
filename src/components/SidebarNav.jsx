@@ -43,7 +43,7 @@ export default function SidebarNav({ onOpen }) {
               </button>
               {i !== sidebarNavData.length - 1 && (
                 <span
-                  className={` w-20 h-[1px] bg-white bg-opacity-50 content-normal`}
+                  className={` w-24 h-[1px] bg-white bg-opacity-50 content-normal`}
                 />
               )}
             </li>
