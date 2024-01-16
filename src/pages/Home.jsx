@@ -7,40 +7,6 @@ import SliderTrivias from '../components/SliderTrivias';
 import { portalsTest, trivias, appGames } from './../contentData.json';
 import { sortArrayByDate } from '../utils/functions';
 
-const featuredElements = [
-  {
-    name: 'Epa Mujer',
-    dateCreated: '15/12/2023',
-    shortDescription: 'Portal de contenido para mujeres',
-    link: 'https://epa-mujer-demo.vercel.app/',
-    coverImageLarge: '/images/bg-alta-epamujer.webp',
-    coverImageLogo: '/images/epamujer-portales.webp',
-    mockup: '/images/trivia-epamujer-mockup.webp',
-    bgColor: '#A260D0',
-  },
-  {
-    name: 'Maradona Juegos',
-    dateCreated: '01/11/2023',
-    shortDescription: 'Plataforma de juegos de Diego Maradona',
-    link: 'https://maradona-games-selector.vercel.app/',
-    coverImageLarge: '',
-    coverImageLogo: '/images/maradona-juegos.webp',
-    mockup: '/images/trivia-maradona-mockup.webp',
-    bgColor: '#528ad0',
-  },
-  {
-    name: 'Recetas LXLC',
-    dateCreated: '05/02/2023',
-    shortDescription:
-      'App para recomendar recetas de cocina según perfilado del usuario',
-    link: 'https://locoxlacocina-app.vercel.app',
-    coverImageLarge: '',
-    coverImageLogo: '/images/hoyquecocino-juegos.webp',
-    mockup: '/images/trivia-lxc-mockup.webp',
-    bgColor: '#D2Aa20',
-  },
-];
-
 const reelsElements = [
   {
     name: 'Epa Mujer',
@@ -110,6 +76,15 @@ export default function Home() {
   const portalsTestSorted = sortArrayByDate(portalsTest);
   const triviasSorted = sortArrayByDate(trivias);
   const appsGamesSorted = sortArrayByDate(appGames);
+
+  // featured elements armado solamente con el ultimo de cada categoria
+  // necesito hacer que sean los 3 ultimos de todos los contenidos
+  const featuredElements = [
+    portalsTestSorted[0],
+    triviasSorted[0],
+    appsGamesSorted[0],
+  ];
+
 
   return (
     <main className=' z-0 relative mt-16 md:mt-24 lg:mt-28 w-screen overflow-x-hidden font-poppinsLight flex flex-col items-center  '>
