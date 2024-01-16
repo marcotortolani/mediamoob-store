@@ -1,9 +1,17 @@
-import { useNavigate } from 'react-router-dom';
+import { useEffect } from 'preact/hooks';
+import { useNavigate, useResolvedPath } from 'react-router-dom';
 import { sidebarNavData, rrssData } from '../utils/staticData';
 import { OpenedBox, RightChevron } from '../utils/svgIcons';
 
 export default function SidebarNav({ onOpen }) {
   const navigate = useNavigate();
+  const { pathname } = useResolvedPath();
+
+  // useEffect(() => {
+  //   console.log(pathname);
+  //   // if (!onOpen) onOpen(false);
+
+  // }, [pathname]);
 
   function handleNavigate(path) {
     navigate(path);

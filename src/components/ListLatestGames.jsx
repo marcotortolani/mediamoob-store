@@ -4,7 +4,7 @@ export default function ListLatestGames({ listElements }) {
   const navigate = useNavigate();
 
   function handleClick() {
-    navigate('/games');
+    navigate('/apps-games');
   }
   return (
     <section className=' z-30 relative top-0 w-screen max-w-[600px] h-full  mt-2 px-2 flex flex-col items-start justify-center '>

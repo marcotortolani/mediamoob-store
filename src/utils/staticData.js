@@ -11,7 +11,7 @@ import {
 
 export const downbarNavData = [
   { name: 'Portales Test', icon: WebIcon, href: '/portales-test' },
-  { name: 'Memoob Games', icon: JoystickIcon, href: '/games' },
+  { name: 'Memoob Games', icon: JoystickIcon, href: '/apps-games' },
   { name: 'Home', icon: HomeIcon, href: '/' },
   { name: 'Memoob Trivias', icon: TriviasIcon, href: '/trivias' },
   { name: 'Memoob Reels', icon: VideoIcon, href: '/reels' },
@@ -20,7 +20,7 @@ export const downbarNavData = [
 export const sidebarNavData = [
   { name: 'Portales Test', icon: WebIcon, href: '/portales-test' },
   { name: 'Trivias', icon: TriviasIcon, href: '/trivias' },
-  { name: 'Juegos', icon: JoystickIcon, href: '/games' },
+  { name: 'Juegos', icon: JoystickIcon, href: '/apps-games' },
   { name: 'Reels', icon: VideoIcon, href: '/reels' },
   { name: 'T&C', icon: TermsIcon, href: '/terms' },
 ];
