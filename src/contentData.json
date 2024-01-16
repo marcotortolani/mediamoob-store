@@ -1,61 +1,184 @@
 {
-  "websitesTest": [
+  "portalsTest": [
     {
-      "name": "Epa Mujer",
-      "dateCreated": "15/12/2023",
-      "shortDescription": "Portal de contenido para mujeres",
-      "link": "https://epa-mujer-demo.vercel.app/",
-      "coverImageLarge": "/images/bg-alta-epamujer.webp",
-      "coverImageLogo": "/images/epamujer-portales.webp",
-      "mockup": "/images/trivia-epamujer-mockup.webp",
-      "bgColor": "#2FB8FF"
-    }
-  ],
-
-  "apps": [
-    {
-      "name": "",
-      "dateCreated": "",
-      "shortDescription": "",
-      "link": "",
-      "coverImageLarge": "",
-      "coverImageLogo": "",
-      "mockup": "",
-      "bgColor": ""
-    }
-  ],
-  "games": [
-    {
-      "name": "Maradona Plataforma de Juegos",
-      "dateCreated": "01/11/2023",
-      "shortDescription": "Plataforma de juegos de Diego Maradona",
-      "link": "https://maradona-games-selector.vercel.app/",
-      "coverImageLarge": "",
-      "coverImageLogo": "/images/maradona-juegos.webp",
-      "mockup": "/images/trivia-maradona-mockup.webp",
-      "bgColor": "#000000"
+      "name": "Portal Team Gamers",
+      "dateCreated": "02/10/2022",
+      "shortDescription": "El mejor contenido de Gaming, videos exclusivos!",
+      "lang": "es",
+      "link": "http://test.teamgamers.moob.club/",
+      "coverImageLarge": "/images/portales/team-gamers/teamgamers-bg-dest.webp",
+      "coverImageLogo": "/images/portales/team-gamers/teamgamers-portales.webp",
+      "mockup": "/images/portales/team-gamers/teamgamers-portal-mockup.webp",
+      "bgColor": "#962B70"
     },
     {
-      "name": "Recetas LXLC",
+      "name": "Portal Epa Mujer",
+      "dateCreated": "01/12/2023",
+      "shortDescription": "Contenido exclusivo para la mujer de hoy.",
+      "lang": "es",
+      "link": "https://epa-mujer-demo.vercel.app/",
+      "coverImageLarge": "/images/portales/epa-mujer/bg-alta-epamujer.webp",
+      "coverImageLogo": "/images/portales/epa-mujer/epamujer-portales.webp",
+      "mockup": "/images/portales/epa-mujer/epamujer-mockup.webp",
+      "bgColor": "#6EB7FF"
+    },
+    {
+      "name": "Portal Loco por la Cocina",
+      "dateCreated": "01/10/2022",
+      "shortDescription": "Cocinar nunca fue tan fácil! contenido exclusivo de recetas.",
+      "lang": "es",
+      "link": "http://es.test.locoporlacocina.moob.club/",
+      "coverImageLarge": "/images/portales/loco-por-la-cocina/lxc-bg-dest.webp",
+      "coverImageLogo": "/images/portales/loco-por-la-cocina/lxc-portales.webp",
+      "mockup": "/images/portales/loco-por-la-cocina/locoporlacocina-mockup.webp",
+      "bgColor": "#C97F21"
+    },
+    {
+      "name": "Portal El Reino Infantil",
+      "dateCreated": "01/01/2024",
+      "shortDescription": "El mejor contenido de el Reino Infantil en un solo lugar.",
+      "lang": "es",
+      "link": "http://test.granjazenon.moob.club/",
+      "coverImageLarge": "/images/portales/el-reino-infantil/elreinoinfantil-bg-dest.webp",
+      "coverImageLogo": "/images/portales/el-reino-infantil/elreinoinfantil-dest-portal.webp",
+      "mockup": "/images/portales/el-reino-infantil/elreinoinfantil-portal-mockup.webp",
+      "bgColor": "#76A7C6"
+    },
+    {
+      "name": "Portal Club Media Fest",
+      "dateCreated": "08/10/2022",
+      "shortDescription": "El mejor contenido del Club Media Fest en exclusivo.",
+      "lang": "es",
+      "link": "http://test.clubmedia.moob.club/",
+      "coverImageLarge": "/images/portales/club-media-fest/cmf-bg-dest.webp",
+      "coverImageLogo": "/images/portales/club-media-fest/cmf-portal-dst.webp",
+      "mockup": "/images/portales/club-media-fest/cmf-portal-mockup.webp",
+      "bgColor": "#7E3367"
+    },
+    {
+      "name": "Portal Cruce de Campeones",
+      "dateCreated": "11/10/2022",
+      "shortDescription": "El mejor contenido de batallas Freestyle.",
+      "lang": "es",
+      "link": "http://test.crucedecampeones.moob.club/",
+      "coverImageLarge": "/images/portales/cruce-de-campeones/cdc-bg-dest.webp",
+      "coverImageLogo": "/images/portales/cruce-de-campeones/cdc-portal.webp",
+      "mockup": "/images/portales/cruce-de-campeones/cdc-portal-mockup.webp",
+      "bgColor": "#DB1508"
+    },
+    {
+      "name": "Portal Total Fitness",
+      "dateCreated": "01/08/2023",
+      "shortDescription": "Contenido de Fitness, Rutinas, entrenamientos y más.",
+      "lang": "es",
+      "link": "http://es.test.totalfitness.moob.club/",
+      "coverImageLarge": "/images/portales/total-fitness/totalfitness-bg-dest.webp",
+      "coverImageLogo": "/images/portales/total-fitness/totalfitness-portal-dest.webp",
+      "mockup": "/images/portales/total-fitness/totalfitness-mockup-portal.webp",
+      "bgColor": "#4479FB"
+    },
+    {
+      "name": "Portal Que Guay Viajes",
+      "dateCreated": "03/10/2022",
+      "shortDescription": "Recorre el mundo en un click! ",
+      "lang": "es",
+      "link": "http://test.queguayviajes.moob.club/",
+      "coverImageLarge": "/images/portales/que-guay-viajes/queguayviajes-bg-dest.webp",
+      "coverImageLogo": "/images/portales/que-guay-viajes/queguayviajes-dest-portal.webp",
+      "mockup": "/images/portales/que-guay-viajes/queguay-portal-mockup.webp",
+      "bgColor": "#78C9BC"
+    }
+  ],
+  "appGames": [
+    {
+      "name": "App Recetas LXLC",
       "dateCreated": "05/02/2023",
       "shortDescription": "App para recomendar recetas de cocina según perfilado del usuario",
+      "lang": "es",
       "link": "https://locoxlacocina-app.vercel.app",
       "coverImageLarge": "",
       "coverImageLogo": "/images/hoyquecocino-juegos.webp",
       "mockup": "/images/trivia-lxlc-mockup.webp",
       "bgColor": "#E08008"
+    },
+    {
+      "name": "App Diego Maradona",
+      "dateCreated": "05/10/2023",
+      "shortDescription": "Descubre los juegos mas divertidos de Diego Maradona.",
+      "lang": "es",
+      "link": "https://maradona-games-selector.vercel.app/",
+      "coverImageLarge": "/images/apps/maradona/maradona-bg-dest.webp",
+      "coverImageLogo": "/images/apps/maradona/maradona-juegos.webp",
+      "mockup": "/images/apps/maradona/maradona-app-mockup.webp",
+      "bgColor": "#2A3043"
+    },
+    {
+      "name": "App Total Fitness",
+      "dateCreated": "01/09/2023",
+      "shortDescription": "Consigue tu cuerpo soñado con nuestras rutinas!",
+      "lang": "es",
+      "link": "http://es.test.totalfitness.moob.club/app-fitness-demo/",
+      "coverImageLarge": "/images/apps/total-fitness/totalfitness-bg-dest.webp",
+      "coverImageLogo": "/images/apps/total-fitness/totalfitness-app-dest.webp",
+      "mockup": "/images/apps/total-fitness/totalfitness-app-mockup.webp",
+      "bgColor": "#4479FB"
     }
   ],
   "trivias": [
     {
-      "name": "Epa Mujer",
-      "dateCreated": "",
-      "shortDescription": "",
-      "link": "",
-      "coverImageLarge": "",
+      "name": "Trivia Team Gamers",
+      "dateCreated": "01/10/2022",
+      "shortDescription": "¿Cuánto sabes de Gaming? Contestá, sumá y ganá!",
+      "lang": "es",
+      "link": "https://trivia-app-sigma.vercel.app/index.html",
+      "coverImageLarge": "/images/trivias/team-gamers/teamgamers-bg-dest.webp",
       "coverImageLogo": "",
-      "mockup": "./assets/images/trivia-epamujer-mockup.webp",
-      "bgColor": ""
+      "mockup": "/images/trivias/team-gamers/teamgamers-trivia-mockup.webp",
+      "bgColor": "#962B70"
+    },
+    {
+      "name": "Trivia Epa Mujer",
+      "dateCreated": "01/11/2023",
+      "shortDescription": "Pone a prueba tu conocimiento con esta trivia para mujeres.",
+      "lang": "es",
+      "link": "https://trivia-epamujer-demo.vercel.app/",
+      "coverImageLarge": "/images/trivias/epa-mujer/bg-alta-epamujer.webp",
+      "coverImageLogo": "",
+      "mockup": "/images/trivias/epa-mujer/trivia-epamujer-mockup.webp",
+      "bgColor": "#6EB7FF"
+    },
+    {
+      "name": "Trivia Loco por la Cocina",
+      "dateCreated": "01/12/2023",
+      "shortDescription": "Demuestra tus conocimientos culinarios con esta trivia.",
+      "lang": "es",
+      "link": "https://trivia-lxlc-demo.vercel.app/",
+      "coverImageLarge": "/images/trivias/loco-por-la-cocina/lxc-bg-dest.webp",
+      "coverImageLogo": "",
+      "mockup": "/images/trivias/loco-por-la-cocina/trivia-lxc-mockup.webp",
+      "bgColor": "#C97F22"
+    },
+    {
+      "name": "Trivia Club Media Fest",
+      "dateCreated": "05/12/2023",
+      "shortDescription": "Descubre cuánto sabes del Club Media Fest con esta trivia.",
+      "lang": "es",
+      "link": "https://trivia-clubmediafest-demo.vercel.app/",
+      "coverImageLarge": "/images/trivias/clubmedia-fest/cmf-bg-dest.webp",
+      "coverImageLogo": "",
+      "mockup": "/images/trivias/clubmedia-fest/cmf-trivia-mockup.webp",
+      "bgColor": "#7E3368"
+    },
+    {
+      "name": "Trivia Diego Maradona",
+      "dateCreated": "01/06/2023",
+      "shortDescription": "¿Cuánto sabes del 10? Juega a la trivia de Maradona para saberlo.",
+      "lang": "es",
+      "link": "https://trivia-maradona-test.vercel.app/",
+      "coverImageLarge": "/images/trivias/maradona/",
+      "coverImageLogo": "",
+      "mockup": "/images/trivias/maradona/trivia-maradona-mockup.webp",
+      "bgColor": "#2A3043"
     }
   ],
   "reels": [
@@ -63,6 +186,7 @@
       "name": "",
       "dateCreated": "",
       "shortDescription": "",
+      "lang": "es",
       "link": "",
       "coverImageLarge": "",
       "coverImageLogo": "",
@@ -75,6 +199,7 @@
       "name": "",
       "dateCreated": "",
       "shortDescription": "",
+      "lang": "es",
       "link": "",
       "coverImageLarge": "",
       "coverImageLogo": "",
