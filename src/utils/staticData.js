@@ -7,6 +7,7 @@ import {
   TermsIcon,
   InstagramIcon,
   LinkedinIcon,
+  TikTokIcon,
 } from './svgIcons';
 
 export const downbarNavData = [
@@ -26,6 +27,11 @@ export const sidebarNavData = [
 ];
 
 export const rrssData = [
+  {
+    name: 'TikTok',
+    icon: TikTokIcon,
+    link: 'https://www.tiktok.com/@mediamoob',
+  },
   {
     name: 'Instagram',
     icon: InstagramIcon,

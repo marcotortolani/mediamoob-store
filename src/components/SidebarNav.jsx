@@ -3,7 +3,7 @@ import { sidebarNavData, rrssData } from '../utils/staticData';
 import { OpenedBox, RightChevron } from '../utils/svgIcons';
 
 export default function SidebarNav({ onOpen }) {
-  const navigate = useNavigate();  
+  const navigate = useNavigate();
 
   function handleNavigate(path) {
     navigate(path);
@@ -67,7 +67,7 @@ export default function SidebarNav({ onOpen }) {
         >
           https://memoob.com
         </a>
-        <ul className=' w-full pr-4 flex items-center justify-end gap-5'>
+        <ul className=' w-full flex items-center justify-center gap-5 md:gap-8 lg:gap-10'>
           {rrssData.map((el, i) => (
             <li key={i} className=''>
               <a
