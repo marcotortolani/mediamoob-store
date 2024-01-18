@@ -7,33 +7,37 @@ const lang = { es: 'ES', en: 'GB', us: 'US', pt: 'PT' };
 export default function AppsGames() {
   const appsGamesSorted = sortArrayByDate(appGames);
   return (
-    <main className=' z-0 relative pt-8 md:pt-14 lg:pt-16 w-full md:w-[700px] h-fit overflow-y-hidden font-poppinsLight flex flex-col items-center justify-center '>
+    <main className=' z-0 relative pt-8 md:pt-14 lg:pt-16 w-full max-w-screen-lg h-fit overflow-y-hidden font-poppinsLight flex flex-col items-center justify-center '>
       <LabelHeaderPage title='Memoob Games' lang={lang.es} />
 
       <div className='w-full h-full p-2 pt-4 flex items-center justify-center  content-normal'>
-        <ul className=' w-fit h-full flex flex-col items-center justify-center gap-2'>
+        <ul
+          className=' w-full h-full flex flex-col items-center justify-center gap-2 
+                      md:grid md:grid-flow-row md:grid-cols-2 md:gap-4'
+        >
           {appsGamesSorted.map((el, i) => (
             <li
               key={i}
               onClick={() => {
                 setIndexPag(i);
               }}
-              className={` w-full h-[15vh]  flex items-start gap-2 rounded-xl `}
+              className={` w-full h-[15vh] md:h-[20vh] flex items-start gap-2 rounded-xl `}
             >
               <img
                 className=' w-2/5 h-full aspect-[5/4] object-cover rounded-[inherit]'
                 src={el.coverImageLogo}
                 alt={`${el.name} cover and logo`}
               />
-              <div className='relative w-full h-full  p-2 flex flex-col items-start gap-0'>
-                <h4 className=' w-full pr-4 font-poppinsSemiBold text-sm leading-4'>
+              <div className='relative w-full h-full  p-2 md:pr-3 flex flex-col items-start gap-0'>
+                <h4 className=' w-full pr-4 font-poppinsSemiBold text-sm sm:text-base lg:text-lg leading-4'>
                   {el.name}
                 </h4>
-                <p className=' text-[0.6rem] leading-3 line-clamp-2'>
+                <p className=' text-[0.6rem] md:text-sm leading-3 md:leading-4 line-clamp-2'>
                   {el.shortDescription}
                 </p>
                 <a
-                  className=' absolute bottom-2 left-2  px-4 py-1 bg-moobSky text-[0.6rem] text-white uppercase rounded-full'
+                  className=' absolute bottom-2 left-2  px-4 py-1 bg-moobSky text-[0.6rem] md:text-sm lg:text-base text-white uppercase rounded-full 
+                  hover:scale-105 hover:shadow-sm hover:shadow-gray-500 transition-transform duration-150 ease-in-out'
                   href={el.link}
                   target='_blank'
                 >
