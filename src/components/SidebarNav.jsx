@@ -7,18 +7,18 @@ export default function SidebarNav({ onOpen }) {
   const navigate = useNavigate();
   const { pathname } = useResolvedPath();
 
-  // useEffect(() => {
-  //   console.log(pathname);
-  //   // if (!onOpen) onOpen(false);
+  useEffect(() => {
+    console.log(pathname);
+    // if (!onOpen) onOpen(false);
 
-  // }, [pathname]);
+  }, [pathname]);
 
   function handleNavigate(path) {
     navigate(path);
     onOpen(false);
   }
   return (
-    <div className=' z-20 absolute top-0 right-0 p-2 w-1/2 h-[94vh] min-h-[400px] flex flex-col justify-start gap-2 normal:gap-6 tall:gap-10 bg-moobMint bg-opacity-95 rounded-tl-[2rem] rounded-bl-[2rem] '>
+    <div className=' z-20 absolute top-0 right-0 p-2 lg:p-6 w-1/2 max-w-[300px] h-[95vh] min-h-[400px] flex flex-col justify-start gap-2 normal:gap-6 tall:gap-10 bg-moobMint bg-opacity-95 rounded-tl-[2rem] rounded-bl-[2rem] '>
       <button
         className='w-full h-10 p-0 flex items-center justify-end gap-4 '
         onClick={() => onOpen(false)}
@@ -29,7 +29,7 @@ export default function SidebarNav({ onOpen }) {
             STORE
           </span>
         </div>
-        <div className=' w-1/6 p-1'>
+        <div className=' w-1/6 max-w-[30px] p-1'>
           <RightChevron fill='#FFF' />
         </div>
       </button>
@@ -37,10 +37,13 @@ export default function SidebarNav({ onOpen }) {
       <div className=' w-full pr-3'>
         <ul className=' py-2 flex flex-col gap-2 '>
           {sidebarNavData.map((el, i) => (
-            <li key={i} className=' w-full flex flex-col items-end gap-1'>
+            <li
+              key={i}
+              className=' relative w-full group flex flex-col items-end gap-2'
+            >
               <button
                 onClick={() => handleNavigate(el.href)}
-                className='w-full h-full flex items-center justify-end gap-3'
+                className=' relative w-full h-full flex items-center justify-end gap-3'
               >
                 <span className='w-full font-poppinsRegular text-end text-base md:text-lg'>
                   {el.name}
@@ -48,7 +51,9 @@ export default function SidebarNav({ onOpen }) {
                 <div className='  w-8 h-8 opacity-70'>
                   <el.icon />
                 </div>
+                <div className=' absolute top-0 left-0 origin-right -z-10 w-full h-full scale-x-0 group-hover:scale-x-100 transition-transform ease-out duration-200 group-hover:bg-moobSky opacity-50'></div>
               </button>
+
               {i !== sidebarNavData.length - 1 && (
                 <span
                   className={` w-24 h-[1px] bg-white bg-opacity-50 content-normal`}
