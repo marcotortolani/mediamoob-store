@@ -32,8 +32,9 @@
 .no-scrollbar::-webkit-scrollbar{
   /* overflow-x: hidden !important; */
   display: none;
-  
 }
+
 .no-vertical-scrollbar{
   overflow-y: hidden !important;
 }
+

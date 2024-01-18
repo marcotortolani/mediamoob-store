@@ -1,5 +1,5 @@
-import { useState } from 'preact/hooks';
-import { useNavigate } from 'react-router-dom';
+import { useState, useEffect } from 'preact/hooks';
+import { useNavigate, useResolvedPath } from 'react-router-dom';
 import moobLogo from '/images/mediamoob-logo.webp';
 import { OpenedBox, MenuVertical } from '../utils/svgIcons';
 import SidebarNav from './SidebarNav';
@@ -7,6 +7,11 @@ import SidebarNav from './SidebarNav';
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
+  const { pathname } = useResolvedPath();
+
+  useEffect(() => {
+    if (isMenuOpen) setIsMenuOpen(false);
+  }, [pathname]);
 
   function handleClick() {
     navigate('/');

@@ -86,6 +86,7 @@ export default function Home() {
   ];
 
 
+
   return (
     <main className=' z-0 relative mt-16 md:mt-24 lg:mt-28 w-screen overflow-x-hidden font-poppinsLight flex flex-col items-center  '>
       <SliderFeatured

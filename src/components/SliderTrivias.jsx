@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import ButtonSeeMore from './ButtonSeeMore';
 export default function SliderTrivias({ slides }) {
   const navigate = useNavigate();
 
@@ -46,12 +47,7 @@ export default function SliderTrivias({ slides }) {
           </ul>
         </div>
         <div className=' pl-2'>
-          <button
-            className=' px-2 py-1 bg-moobSky text-xs text-white lowercase rounded-full'
-            onClick={handleClick}
-          >
-            Ver todos
-          </button>
+        <ButtonSeeMore handleClick={handleClick} />
         </div>
       </div>
     </section>

@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { VideoIcon } from '../utils/svgIcons';
+import ButtonSeeMore from './ButtonSeeMore';
 
 export default function GridReels({ gridElements }) {
   const navigate = useNavigate();
@@ -51,12 +52,7 @@ export default function GridReels({ gridElements }) {
           </ul>
         </div>
         <div className=''>
-          <button
-            className=' px-2 py-1 bg-black text-xs text-white lowercase rounded-full'
-            onClick={handleClick}
-          >
-            Ver todos
-          </button>
+          <ButtonSeeMore handleClick={handleClick} />
         </div>
       </div>
     </section>

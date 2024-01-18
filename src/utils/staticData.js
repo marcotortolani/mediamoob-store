@@ -22,7 +22,7 @@ export const sidebarNavData = [
   { name: 'Trivias', icon: TriviasIcon, href: '/trivias' },
   { name: 'Juegos', icon: JoystickIcon, href: '/apps-games' },
   { name: 'Reels', icon: VideoIcon, href: '/reels' },
-  { name: 'T&C', icon: TermsIcon, href: '/terms' },
+  // { name: 'T&C', icon: TermsIcon, href: '/terms' },
 ];
 
 export const rrssData = [
