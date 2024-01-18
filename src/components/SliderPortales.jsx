@@ -33,12 +33,12 @@ export default function SliderPortales({ slides, spaceBetweenSlides = 10 }) {
   }
 
   return (
-    <section className=' z-30 relative top-0 w-screen h-fit lg:px-2 pt-4 md:pt-6 pb-2 md:pb-4 flex items-center justify-center'>
-      <div className='w-full max-w-fit flex flex-col items-start justify-center gap-1 '>
-        <h3 className=' pl-2 uppercase text-sm font-poppinsRegular'>
+    <section className=' z-30 relative top-0 w-screen h-fit lg:px-2 pb-2 md:pb-4 flex items-center justify-center'>
+      <div className='w-full max-w-fit flex flex-col items-start justify-center gap-1 md:gap-2 lg:gap-3 '>
+        <h3 className=' pl-2 uppercase text-sm md:text-base lg:text-lg font-poppinsRegular'>
           Portales Test
         </h3>
-        <div className='w-full max-w-[1100px] overflow-x-scroll no-scrollbar h-fit content-normal '>
+        <div className='w-full max-w-screen-lg overflow-x-scroll no-scrollbar h-fit content-normal '>
           <Swiper
             ref={sliderRef}
             slidesPerView={slidesPerView}
@@ -64,7 +64,7 @@ export default function SliderPortales({ slides, spaceBetweenSlides = 10 }) {
                     src={slide.coverImageLogo}
                     alt={`${slide.name} cover and logo`}
                   />
-                  <span className=' font-poppinsLight text-xs leading-3 line-clamp-1'>
+                  <span className=' font-poppinsLight text-xs md:text-sm lg:text-base leading-3 line-clamp-1'>
                     {slide.name}
                   </span>
                 </a>

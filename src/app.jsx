@@ -19,7 +19,6 @@ export function App() {
         </Routes>
         <DownbarNav />
       </HashRouter>
-      <footer></footer>
     </div>
   );
 }

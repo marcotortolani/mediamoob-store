@@ -9,9 +9,9 @@ export default function ListLatestGames({ listElements }) {
   }
 
   return (
-    <section className=' z-30 relative top-0 w-screen max-w-[1100px] h-full  mt-2 px-2 flex flex-col items-start justify-center '>
-      <div className=' w-full h-fit px-4 py-2 md:px-6 md:py-4 lg:px-8 lg:py-6 bg-gray-300 rounded-xl'>
-        <h3 className=' mb-2 uppercase text-sm font-poppinsRegular'>
+    <section className=' z-30 relative top-0 w-screen max-w-screen-lg h-full mt-2 px-2 flex flex-col items-start justify-center '>
+      <div className=' w-full h-fit px-4 py-2 md:px-6 md:py-4 lg:px-8 lg:py-6 bg-gray-300 rounded-xl md:rounded-2xl'>
+        <h3 className=' mb-2 uppercase text-sm md:text-base lg:text-lg font-poppinsRegular'>
           Media Moob Games
         </h3>
         <div className='w-full h-fit  content-normal'>
@@ -33,7 +33,7 @@ export default function ListLatestGames({ listElements }) {
                   alt={`${el.name} cover and logo`}
                 />
                 <div className='relative w-full h-full  p-2 md:pr-3 flex flex-col items-start gap-0'>
-                  <h4 className=' w-full pr-4 font-poppinsSemiBold text-sm md:text-base lg:text-lg leading-4'>
+                  <h4 className=' w-full pr-4 font-poppinsSemiBold text-sm sm:text-base lg:text-lg leading-4'>
                     {el.name}
                   </h4>
                   <p className=' text-[0.6rem] md:text-sm leading-3 md:leading-4 line-clamp-2'>

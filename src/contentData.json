@@ -1,7 +1,7 @@
 {
   "portalsTest": [
     {
-      "name": "Portal Team Gamers",
+      "name": "Team Gamers",
       "dateCreated": "02/10/2022",
       "shortDescription": "El mejor contenido de Gaming, videos exclusivos!",
       "lang": "es",
@@ -12,7 +12,7 @@
       "bgColor": "#962B70"
     },
     {
-      "name": "Portal Epa Mujer",
+      "name": "Epa Mujer",
       "dateCreated": "01/12/2023",
       "shortDescription": "Contenido exclusivo para la mujer de hoy.",
       "lang": "es",
@@ -23,7 +23,7 @@
       "bgColor": "#6EB7FF"
     },
     {
-      "name": "Portal Loco por la Cocina",
+      "name": "Loco por la Cocina",
       "dateCreated": "01/10/2022",
       "shortDescription": "Cocinar nunca fue tan fácil! contenido exclusivo de recetas.",
       "lang": "es",
@@ -34,7 +34,7 @@
       "bgColor": "#C97F21"
     },
     {
-      "name": "Portal El Reino Infantil",
+      "name": "El Reino Infantil",
       "dateCreated": "01/01/2024",
       "shortDescription": "El mejor contenido de el Reino Infantil en un solo lugar.",
       "lang": "es",
@@ -45,7 +45,7 @@
       "bgColor": "#76A7C6"
     },
     {
-      "name": "Portal Club Media Fest",
+      "name": "Club Media Fest",
       "dateCreated": "08/10/2022",
       "shortDescription": "El mejor contenido del Club Media Fest en exclusivo.",
       "lang": "es",
@@ -56,7 +56,7 @@
       "bgColor": "#7E3367"
     },
     {
-      "name": "Portal Cruce de Campeones",
+      "name": "Cruce de Campeones",
       "dateCreated": "11/10/2022",
       "shortDescription": "El mejor contenido de batallas Freestyle.",
       "lang": "es",
@@ -67,7 +67,7 @@
       "bgColor": "#DB1508"
     },
     {
-      "name": "Portal Total Fitness",
+      "name": "Total Fitness",
       "dateCreated": "01/08/2023",
       "shortDescription": "Contenido de Fitness, Rutinas, entrenamientos y más.",
       "lang": "es",
@@ -78,7 +78,7 @@
       "bgColor": "#4479FB"
     },
     {
-      "name": "Portal Que Guay Viajes",
+      "name": "Que Guay Viajes",
       "dateCreated": "03/10/2022",
       "shortDescription": "Recorre el mundo en un click! ",
       "lang": "es",

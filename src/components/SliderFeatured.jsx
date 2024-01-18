@@ -32,7 +32,7 @@ export default function SliderFeatured({
   };
 
   return (
-    <section className=' z-0 relative top-0 w-full max-w-[1100px] h-full py-2 pb-0 flex flex-col items-center justify-center'>
+    <section className=' z-0 relative top-0 w-full max-w-screen-lg h-full py-2 pb-0 flex flex-col items-center justify-center'>
       <Swiper
         ref={sliderRef}
         slidesPerView={slidesPerView}
@@ -48,14 +48,14 @@ export default function SliderFeatured({
         pagination={pagination}
         modules={[Autoplay, Navigation]}
         navigation={false}
-        className='mySwiper w-full  h-full px-2 overflow-hidden  flex flex-col items-center justify-center gap-2 '
+        className='mySwiper w-full  h-full px-2 overflow-hidden  flex flex-col items-center justify-center gap-2 md:gap-4 '
       >
         {slides?.map((slide, index) => (
           <SwiperSlide
-            className={` w-full min-w-[160px]  h-auto aspect-[3/2] md:aspect-[16/8] lg:aspect-[16/6] relative flex flex-col items-center justify-center `}
+            className={` w-full min-w-[160px] h-auto aspect-[3/2] md:aspect-[16/8] lg:aspect-[16/6] relative flex flex-col items-center justify-center `}
             key={index}
           >
-            <div className=' w-full h-full  flex flex-col items-center justify-center'>
+            <div className=' w-full h-full flex flex-col items-center justify-center'>
               <div className='relative w-full h-full rounded-xl'>
                 <img
                   className=' w-full h-full object-cover rounded-[inherit]'
@@ -67,7 +67,6 @@ export default function SliderFeatured({
                   alt={`${slide.name} Cover image`}
                 />
                 <div className=' absolute top-0 z-30 w-full h-full bg-black bg-opacity-40 content-normal rounded-[inherit]'>
-
                   <div className='z-50 absolute bottom-0 left-0 pb-6 pl-4 pr-2 w-3/5 flex flex-col items-start gap-2 rounded-bl-[inherit]'>
                     <span className=' px-2 py-1 bg-moobMint text-[0.6rem] md:text-sm lg:text-base text-white'>
                       Lo más nuevo
