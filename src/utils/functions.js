@@ -23,3 +23,8 @@ export function sortArrayByDate(array) {
     );
   });
 }
+
+export function flagsAPI(lang) {
+  const langAPI = lang.toUpperCase();
+  return `https://flagsapi.com/${langAPI}/flat/32.png`;
+}

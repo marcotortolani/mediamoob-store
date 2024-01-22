@@ -83,8 +83,6 @@ export default function Home() {
   const appsGamesSorted = sortArrayByDate(appGames).slice(0, 4);
   const reelsSorted = sortArrayByDate(reels).slice(0, 6);
 
-  console.log(appsGamesSorted.length);
-
   // featured elements armado solamente con el ultimo de cada categoria
   // necesito hacer que sean los 3 ultimos de todos los contenidos
 
@@ -111,7 +109,7 @@ export default function Home() {
 
       <SliderTrivias slides={triviasSorted} />
 
-      <GridReels gridElements={reelsElements} />
+      <GridReels gridElements={reelsSorted} />
 
       <div className='w-full h-28'></div>
     </main>

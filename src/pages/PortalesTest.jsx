@@ -1,6 +1,7 @@
 import LabelHeaderPage from '../components/LabelHeaderPage';
 import { portalsTest } from './../contentData.json';
-import { sortArrayByDate } from '../utils/functions';
+import { sortArrayByDate} from '../utils/functions';
+import FlagBadge from '../components/FlagBadge';
 
 const lang = { es: 'ES', en: 'GB', us: 'US', pt: 'PT' };
 
@@ -16,9 +17,6 @@ export default function PortalesTest() {
           {portalsTestSorted.map((el, i) => (
             <li
               key={i}
-              onClick={() => {
-                setIndexPag(i);
-              }}
               className={`col-span-1 group hover:scale-110 relative w-full aspect-[5/7] overflow-hidden hover:overflow-visible transition-transform ease-in-out duration-150   `}
             >
               <a
@@ -33,6 +31,7 @@ export default function PortalesTest() {
                     alt={`${el.name} cover and logo`}
                   />
                 </div>
+                <FlagBadge lang={el.lang} />
 
                 <span className='  font-poppinsLight text-[0.6rem] md:text-sm lg:text-base  line-clamp-1'>
                   {el.name}

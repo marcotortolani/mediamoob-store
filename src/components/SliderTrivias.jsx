@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import ButtonSeeMore from './ButtonSeeMore';
+import FlagBadge from './FlagBadge';
 export default function SliderTrivias({ slides }) {
   const navigate = useNavigate();
 
@@ -36,6 +37,7 @@ export default function SliderTrivias({ slides }) {
                         alt={`${slide.name} cover and logo`}
                       />
                     </div>
+                    <FlagBadge lang={slide.lang} />
                   </div>
 
                   <span className='  font-poppinsLight text-xs md:text-sm lg:text-base  line-clamp-1'>
@@ -47,7 +49,7 @@ export default function SliderTrivias({ slides }) {
           </ul>
         </div>
         <div className=' pl-2'>
-        <ButtonSeeMore handleClick={handleClick} />
+          <ButtonSeeMore handleClick={handleClick} />
         </div>
       </div>
     </section>

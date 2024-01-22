@@ -5,6 +5,7 @@ import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import ButtonSeeMore from './ButtonSeeMore';
+import FlagBadge from './FlagBadge';
 
 export default function SliderPortales({ slides, spaceBetweenSlides = 10 }) {
   const navigate = useNavigate();
@@ -64,6 +65,7 @@ export default function SliderPortales({ slides, spaceBetweenSlides = 10 }) {
                     src={slide.coverImageLogo}
                     alt={`${slide.name} cover and logo`}
                   />
+                  <FlagBadge lang={slide.lang} />
                   <span className=' font-poppinsLight text-xs md:text-sm lg:text-base leading-3 line-clamp-1'>
                     {slide.name}
                   </span>

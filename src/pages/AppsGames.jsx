@@ -18,9 +18,6 @@ export default function AppsGames() {
           {appsGamesSorted.map((el, i) => (
             <li
               key={i}
-              onClick={() => {
-                setIndexPag(i);
-              }}
               className={` w-full h-[15vh] md:h-[20vh] flex items-start gap-2 rounded-xl `}
             >
               <img

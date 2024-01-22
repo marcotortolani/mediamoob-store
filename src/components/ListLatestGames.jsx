@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import ButtonSeeMore from './ButtonSeeMore';
+import FlagBadge from './FlagBadge';
 
 export default function ListLatestGames({ listElements }) {
   const navigate = useNavigate();
@@ -12,7 +13,7 @@ export default function ListLatestGames({ listElements }) {
     <section className=' z-30 relative top-0 w-screen max-w-screen-lg h-full mt-2 px-2 flex flex-col items-start justify-center '>
       <div className=' w-full h-fit px-4 py-2 md:px-6 md:py-4 lg:px-8 lg:py-6 bg-gray-300 rounded-xl md:rounded-2xl'>
         <h3 className=' mb-2 uppercase text-sm md:text-base lg:text-lg font-poppinsRegular'>
-          Media Moob Games
+          Media Moob App & Games
         </h3>
         <div className='w-full h-fit  content-normal'>
           <ul
@@ -22,17 +23,18 @@ export default function ListLatestGames({ listElements }) {
             {listElements.map((el, i) => (
               <li
                 key={i}
-                onClick={() => {
-                  setIndexPag(i);
-                }}
-                className={` w-full h-[15vh] md:h-[20vh] flex items-start gap-2 rounded-xl `}
+                className={`relative w-full h-[15vh] md:h-[20vh] flex items-start gap-2 rounded-xl `}
               >
-                <img
-                  className=' w-2/5 h-full aspect-[5/4] object-cover rounded-[inherit]'
-                  src={el.coverImageLogo}
-                  alt={`${el.name} cover and logo`}
-                />
-                <div className='relative w-full h-full  p-2 md:pr-3 flex flex-col items-start gap-0'>
+                <div className=' relative w-2/5 h-full bg-green-400 aspect-[5/4]  rounded-[inherit]'>
+                  <img
+                    className=' w-full h-full object-cover rounded-[inherit]'
+                    src={el.coverImageLogo}
+                    alt={`${el.name} cover and logo`}
+                  />
+                  <FlagBadge lang={el.lang} />
+                </div>
+
+                <div className=' relative w-full h-full  p-2 md:pr-3 flex flex-col items-start gap-0'>
                   <h4 className=' w-full pr-4 font-poppinsSemiBold text-sm sm:text-base lg:text-lg leading-4'>
                     {el.name}
                   </h4>
