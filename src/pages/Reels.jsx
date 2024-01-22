@@ -1,6 +1,7 @@
 import { reels } from './../contentData.json';
 import LabelHeaderPage from '../components/LabelHeaderPage';
 import { VideoIcon } from '../utils/svgIcons';
+import FlagBadge from '../components/FlagBadge';
 
 const reelsElements = [
   {
@@ -157,6 +158,7 @@ export default function Reels() {
                   {/* <div className=' z-20 absolute top-0 w-1/4 h-full flex items-center justify-center '>
                     <VideoIcon />
                   </div> */}
+                  <FlagBadge lang={el.lang} />
                 </div>
 
                 <span className='  font-poppinsLight text-[0.6rem] md:text-sm lg:text-base  line-clamp-1'>

@@ -1,6 +1,7 @@
 import LabelHeaderPage from '../components/LabelHeaderPage';
 import { appGames } from './../contentData.json';
 import { sortArrayByDate } from '../utils/functions';
+import FlagBadge from '../components/FlagBadge';
 
 const lang = { es: 'ES', en: 'GB', us: 'US', pt: 'PT' };
 
@@ -20,11 +21,14 @@ export default function AppsGames() {
               key={i}
               className={` w-full h-[15vh] md:h-[20vh] flex items-start gap-2 rounded-xl `}
             >
-              <img
-                className=' w-2/5 h-full aspect-[5/4] object-cover rounded-[inherit]'
-                src={el.coverImageLogo}
-                alt={`${el.name} cover and logo`}
-              />
+              <div className=' relative w-2/5 h-full bg-green-400 aspect-[5/4]  rounded-[inherit]'>
+                <img
+                  className=' w-full h-full object-cover rounded-[inherit]'
+                  src={el.coverImageLogo}
+                  alt={`${el.name} cover and logo`}
+                />
+                <FlagBadge lang={el.lang} />
+              </div>
               <div className='relative w-full h-full  p-2 md:pr-3 flex flex-col items-start gap-0'>
                 <h4 className=' w-full pr-4 font-poppinsSemiBold text-sm sm:text-base lg:text-lg leading-4'>
                   {el.name}
