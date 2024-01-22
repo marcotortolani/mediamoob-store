@@ -3,13 +3,11 @@ import { appGames } from './../contentData.json';
 import { sortArrayByDate } from '../utils/functions';
 import FlagBadge from '../components/FlagBadge';
 
-const lang = { es: 'ES', en: 'GB', us: 'US', pt: 'PT' };
-
 export default function AppsGames() {
   const appsGamesSorted = sortArrayByDate(appGames);
   return (
     <main className=' z-0 relative pt-8 md:pt-14 lg:pt-16 w-full max-w-screen-lg h-fit overflow-y-hidden font-poppinsLight flex flex-col items-center justify-center '>
-      <LabelHeaderPage title='Memoob Games' lang={lang.es} />
+      <LabelHeaderPage title='Memoob Games' />
 
       <div className='w-full h-full p-2 pt-4 flex items-center justify-center  content-normal'>
         <ul

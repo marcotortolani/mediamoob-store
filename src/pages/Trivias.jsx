@@ -3,13 +3,11 @@ import { trivias } from './../contentData.json';
 import { sortArrayByDate } from '../utils/functions';
 import FlagBadge from '../components/FlagBadge';
 
-const lang = { es: 'ES', en: 'GB', us: 'US', pt: 'PT' };
-
 export default function Trivias() {
   const triviasSorted = sortArrayByDate(trivias);
   return (
     <main className=' z-0 relative pt-8 md:pt-14 lg:pt-16 w-full max-w-screen-lg h-fit font-poppinsLight flex flex-col items-center justify-center '>
-      <LabelHeaderPage title='Memoob Trivias' lang={lang.es} />
+      <LabelHeaderPage title='Memoob Trivias' />
 
       <div className='w-full h-full p-2 pt-4 flex items-center justify-center  content-normal'>
         <ul className=' w-full h-full grid place-items-center  grid-cols-3 md:grid-cols-4  gap-2 sm:gap-3 md:gap-4'>

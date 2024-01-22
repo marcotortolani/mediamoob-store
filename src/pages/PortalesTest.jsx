@@ -1,16 +1,14 @@
 import LabelHeaderPage from '../components/LabelHeaderPage';
 import { portalsTest } from './../contentData.json';
-import { sortArrayByDate} from '../utils/functions';
+import { sortArrayByDate } from '../utils/functions';
 import FlagBadge from '../components/FlagBadge';
-
-const lang = { es: 'ES', en: 'GB', us: 'US', pt: 'PT' };
 
 export default function PortalesTest() {
   const portalsTestSorted = sortArrayByDate(portalsTest);
 
   return (
     <main className=' z-0 relative pt-8 md:pt-14 lg:pt-16 w-full max-w-screen-lg  h-fit font-poppinsLight flex flex-col items-center justify-center '>
-      <LabelHeaderPage title='Portales Test' lang={lang.es} />
+      <LabelHeaderPage title='Portales Test' />
 
       <div className='w-full h-full p-2 pt-4 flex items-center justify-center  content-normal'>
         <ul className=' w-full h-fit grid place-items-center grid-cols-3 md:grid-cols-4  gap-2 sm:gap-3 md:gap-4'>

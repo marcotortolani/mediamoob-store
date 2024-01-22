@@ -15,11 +15,11 @@
       "name": "Team Gamers",
       "dateCreated": "03/10/2022",
       "shortDescription": "El mejor contenido de Gaming, videos exclusivos!",
-      "lang": "gb",
+      "lang": "en",
       "link": "http://en.test.teamgamers.moob.club/",
       "coverImageLarge": "/images/portales/team-gamers/teamgamers-bg-dest.webp",
       "coverImageLogo": "/images/portales/team-gamers/teamgamers-portales.webp",
-      "mockup": "/images/portales/team-gamers/teamgamers-portal-mockup.webp",
+      "mockup": "/images/portales/team-gamers/team-gamers-mockup-portal-eng.webp",
       "bgColor": "#962B70"
     },
     {
@@ -277,7 +277,7 @@
       "lang": "es",
       "link": "https://player.vimeo.com/progressive_redirect/playback/863178529/rendition/1080p/file.mp4?loc=external&log_user=0&signature=37cdd7bd98d558a384700a2193ec29096b6df878598922ea4d97d8ce20de94d1",
       "coverImageLarge": "",
-      "coverImageLogo": "/images/reels/reel-institucional-2023/reel-institucional-2023.webp",
+      "coverImageLogo": "/images/reels/reel-institucional-2023/institucional-2023-dest.webp",
       "mockup": "",
       "bgColor": ""
     },
@@ -299,7 +299,7 @@
       "lang": "es",
       "link": "https://player.vimeo.com/progressive_redirect/playback/690043864/rendition/1080p/file.mp4?loc=external&log_user=0&signature=eb8fa5082bfdbd68bedc5191f39c914cb3f5fdd4aa4ca265825dc7994e5b8508",
       "coverImageLarge": "",
-      "coverImageLogo": "/images/reels/el-mate/elmate-reel.webp",
+      "coverImageLogo": "/images/reels/el-mate/elmate.webp",
       "mockup": "",
       "bgColor": ""
     },
@@ -310,7 +310,18 @@
       "lang": "es",
       "link": "https://player.vimeo.com/progressive_redirect/playback/208656035/rendition/720p/file.mp4?loc=external&log_user=0&signature=8d481e19f053b96e0d1c8f11d9059bd790f1dbfe8408a40801b53e6e39a45d1a",
       "coverImageLarge": "",
-      "coverImageLogo": "/images/reels/reel-club-mediafest/reel-clubmedia-fest.webp",
+      "coverImageLogo": "/images/reels/reel-club-mediafest/reel-cmf.webp",
+      "mockup": "",
+      "bgColor": ""
+    },
+    {
+      "name": "Reel 360",
+      "dateCreated": "01/05/2021",
+      "shortDescription": "",
+      "lang": "es",
+      "link": "https://vod-progressive.akamaized.net/exp=1705963518~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F549%2F16%2F402746757%2F1722825871.mp4~hmac=b6c81f55c58ca608fcf959479b087e1628467b47119e3adb9a4552f5fdefae10/vimeo-prod-skyfire-std-us/01/549/16/402746757/1722825871.mp4?filename=file.mp4",
+      "coverImageLarge": "",
+      "coverImageLogo": "/images/reels/reel-360/reel-360.webp",
       "mockup": "",
       "bgColor": ""
     }

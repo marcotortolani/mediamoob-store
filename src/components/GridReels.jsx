@@ -34,9 +34,9 @@ export default function GridReels({ gridElements }) {
                       src={el.coverImageLogo}
                       alt={`${el.name} cover and logo`}
                     />
-                    {/* <div className=' z-20 absolute top-0 w-1/4 h-full flex items-center justify-center '>
+                    <div className=' z-20 absolute top-0 w-1/4 h-full flex items-center justify-center '>
                       <VideoIcon />
-                    </div> */}
+                    </div>
                     <FlagBadge lang={el.lang} />
                   </div>
 
