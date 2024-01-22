@@ -43,7 +43,7 @@ export default function SidebarNav({ onOpen }) {
                 <div className='  w-8 h-8 opacity-70'>
                   <el.icon />
                 </div>
-                <div className=' absolute top-0 left-0 origin-right -z-10 w-full h-full scale-x-0 group-hover:scale-x-100 transition-transform ease-out duration-200 group-hover:bg-moobSky opacity-50'></div>
+                <div className=' absolute top-0 left-0 origin-right -z-10 w-full h-full scale-x-0 group-hover:scale-x-100 transition-transform ease-out duration-200 group-hover:bg-moobSky opacity-50 rounded-l-xl'></div>
               </button>
 
               {i !== sidebarNavData.length - 1 && (
@@ -69,9 +69,9 @@ export default function SidebarNav({ onOpen }) {
         </a>
         <ul className=' w-full flex items-center justify-center gap-5 md:gap-8 lg:gap-10'>
           {rrssData.map((el, i) => (
-            <li key={i} className=''>
+            <li key={i} className=' relative group p-2 rounded-xl'>
               <a
-                className=''
+                className=' '
                 href={el.link}
                 target='_blank'
                 rel='noopener noreferrer'
@@ -79,6 +79,7 @@ export default function SidebarNav({ onOpen }) {
                 <div className=' w-6 '>
                   <el.icon />
                 </div>
+                <div className=' absolute bottom-0 left-0 origin-bottom -z-10 w-full h-full scale-y-0 group-hover:scale-y-100 transition-transform ease-in-out duration-300 group-hover:bg-moobSky opacity-50 rounded-t-xl'></div>
               </a>
             </li>
           ))}
