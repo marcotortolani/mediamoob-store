@@ -11,7 +11,7 @@ export default function Footer() {
           target='_blank'
           rel='noopener noreferrer'
         >
-          git statushttps://memoob.com
+          https://memoob.com
         </a>
       </div>
       <div className=' w-1/6 h-full  flex flex-col items-center justify-center ml-2'>
