@@ -27,5 +27,10 @@ export function sortArrayByDate(array) {
 export function flagsAPI(lang) {
   const langSubfix = { es: 'ES', en: 'GB', pt: 'BR' };
   const langAPI = langSubfix[lang];
-  return `https://flagsapi.com/${langAPI}/flat/32.png`;
+
+  if (langAPI) {
+    return `https://flagsapi.com/${langAPI}/flat/32.png`;
+  } else {
+    return false;
+  }
 }

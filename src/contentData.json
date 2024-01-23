@@ -2,24 +2,35 @@
   "portalsTest": [
     {
       "name": "Team Gamers",
-      "dateCreated": "02/10/2022",
+      "dateCreated": "05/10/2022",
       "shortDescription": "El mejor contenido de Gaming, videos exclusivos!",
       "lang": "es",
       "link": "http://test.teamgamers.moob.club/",
       "coverImageLarge": "/images/portales/team-gamers/teamgamers-bg-dest.webp",
       "coverImageLogo": "/images/portales/team-gamers/teamgamers-portales.webp",
-      "mockup": "/images/portales/team-gamers/teamgamers-portal-mockup.webp",
+      "mockup": "/images/portales/team-gamers/teamgamers-portal-mockup-esp.webp",
       "bgColor": "#962B70"
     },
     {
       "name": "Team Gamers",
-      "dateCreated": "03/10/2022",
+      "dateCreated": "05/10/2022",
       "shortDescription": "El mejor contenido de Gaming, videos exclusivos!",
       "lang": "en",
       "link": "http://en.test.teamgamers.moob.club/",
       "coverImageLarge": "/images/portales/team-gamers/teamgamers-bg-dest.webp",
       "coverImageLogo": "/images/portales/team-gamers/teamgamers-portales.webp",
       "mockup": "/images/portales/team-gamers/team-gamers-mockup-portal-eng.webp",
+      "bgColor": "#962B70"
+    },
+    {
+      "name": "Team Gamers",
+      "dateCreated": "05/10/2022",
+      "shortDescription": "El mejor contenido de Gaming, videos exclusivos!",
+      "lang": "pt",
+      "link": "http://br.test.teamgamers.moob.club/",
+      "coverImageLarge": "/images/portales/team-gamers/teamgamers-bg-dest.webp",
+      "coverImageLogo": "/images/portales/team-gamers/teamgamers-portales.webp",
+      "mockup": "/images/portales/team-gamers/team-gamers-mockup-portal-por.webp",
       "bgColor": "#962B70"
     },
     {
@@ -43,6 +54,17 @@
       "coverImageLogo": "/images/portales/loco-por-la-cocina/lxc-portales.webp",
       "mockup": "/images/portales/loco-por-la-cocina/locoporlacocina-mockup.webp",
       "bgColor": "#C97F21"
+    },
+    {
+      "name": "Mad For Cooking",
+      "dateCreated": "01/10/2023",
+      "shortDescription": "Cocinar nunca fue tan fácil! contenido exclusivo de recetas.",
+      "lang": "en",
+      "link": "http://en.test.locoporlacocina.moob.club/",
+      "coverImageLarge": "/images/portales/mad-for-cooking/lxc-bg-dest.webp",
+      "coverImageLogo": "/images/portales/mad-for-cooking/madforcooking-dest-portal.webp",
+      "mockup": "/images/portales/mad-for-cooking/madforcooking-portal-mockup.webp",
+      "bgColor": "#A62C2D"
     },
     {
       "name": "El Reino Infantil",
@@ -90,13 +112,35 @@
     },
     {
       "name": "Que Guay Viajes",
-      "dateCreated": "03/10/2022",
+      "dateCreated": "01/10/2022",
       "shortDescription": "Recorre el mundo en un click!",
       "lang": "es",
       "link": "http://test.queguayviajes.moob.club/",
       "coverImageLarge": "/images/portales/que-guay-viajes/queguayviajes-bg-dest.webp",
       "coverImageLogo": "/images/portales/que-guay-viajes/queguayviajes-dest-portal.webp",
       "mockup": "/images/portales/que-guay-viajes/queguay-portal-mockup.webp",
+      "bgColor": "#78C9BC"
+    },
+    {
+      "name": "Traveling Spot",
+      "dateCreated": "01/10/2022",
+      "shortDescription": "Recorre el mundo en un click!",
+      "lang": "en",
+      "link": "http://en.test.queguayviajes.moob.club/",
+      "coverImageLarge": "/images/portales/traveling-spot/queguayviajes-bg-dest.webp",
+      "coverImageLogo": "/images/portales/traveling-spot/traveling-spot-portal-dest.webp",
+      "mockup": "/images/portales/traveling-spot/traveling-spot-mockup-portal.webp",
+      "bgColor": "#78C9BC"
+    },
+    {
+      "name": "Local De Viagem",
+      "dateCreated": "01/10/2022",
+      "shortDescription": "Recorre el mundo en un click! ",
+      "lang": "pt",
+      "link": "http://br.test.queguayviajes.moob.club/",
+      "coverImageLarge": "/images/portales/local-de-viagem/queguayviajes-bg-dest.webp",
+      "coverImageLogo": "/images/portales/local-de-viagem/local-viajem-dest-portal.webp",
+      "mockup": "/images/portales/local-de-viagem/localviagem-portal-mockup.webp",
       "bgColor": "#78C9BC"
     },
     {
@@ -119,6 +163,17 @@
       "coverImageLarge": "/images/portales/mundo-kids/kids-bg-dest.webp",
       "coverImageLogo": "/images/portales/mundo-kids/mundokids-dest-portal.webp",
       "mockup": "/images/portales/mundo-kids/mundokids-mockup-portal.webp",
+      "bgColor": "#BC0067"
+    },
+    {
+      "name": "Mundo Kids",
+      "dateCreated": "05/10/2022",
+      "shortDescription": "Un para niños de todas las edades para aprender jugando",
+      "lang": "pt",
+      "link": "http://test.mundokids.br.moob.club/",
+      "coverImageLarge": "/images/portales/mundo-kids/kids-bg-dest.webp",
+      "coverImageLogo": "/images/portales/mundo-kids/mundokids-dest-portal.webp",
+      "mockup": "/images/portales/mundo-kids/mundokids-mockup-portal-por.webp",
       "bgColor": "#BC0067"
     },
     {
@@ -163,7 +218,62 @@
       "coverImageLarge": "/images/portales/haute/bg-haute-dest.webp",
       "coverImageLogo": "/images/portales/haute/haute-dest-portal.webp",
       "mockup": "/images/portales/haute/haute-mockup-portal.webp",
-      "bgColor": "#a14b5a"
+      "bgColor": "#A14B5A"
+    },
+    {
+      "name": "Haute",
+      "dateCreated": "01/10/2022",
+      "shortDescription": "Moda, tendencias, producciones exclusivas.",
+      "lang": "pt",
+      "link": "http://test.haute.br.moob.club/",
+      "coverImageLarge": "/images/portales/haute/bg-haute-dest.webp",
+      "coverImageLogo": "/images/portales/haute/haute-dest-portal.webp",
+      "mockup": "/images/portales/haute/haute-mockup-portal-por.webp",
+      "bgColor": "#A14B5A"
+    },
+    {
+      "name": "So Pra Elas",
+      "dateCreated": "01/10/2023",
+      "shortDescription": "Un portal con contenido exclusivo solo para ellas!",
+      "lang": "pt",
+      "link": "http://test.sopraelas.moob.club/",
+      "coverImageLarge": "/images/portales/so-pra-elas/sopraelas-bg-dest.webp",
+      "coverImageLogo": "/images/portales/so-pra-elas/sopraelas-dest-portal.webp",
+      "mockup": "/images/portales/so-pra-elas/sopraelas-mockup-portal.webp",
+      "bgColor": "#e60000"
+    },
+    {
+      "name": "All For Her",
+      "dateCreated": "01/10/2022",
+      "shortDescription": "Contenido para la mujer de hoy.",
+      "lang": "en",
+      "link": "http://en.test.epa.moob.club/",
+      "coverImageLarge": "/images/portales/all-for-her/allforher-bg-dest.webp",
+      "coverImageLogo": "/images/portales/all-for-her/allforher-portal-dest.webp",
+      "mockup": "/images/portales/all-for-her/allforher-mockup-portal.webp",
+      "bgColor": "#e60000"
+    },
+    {
+      "name": "Empower You",
+      "dateCreated": "01/10/2022",
+      "shortDescription": "Contenido para mujer empoderadas y libres.",
+      "lang": "es",
+      "link": "http://test.empoweryou.moob.club/",
+      "coverImageLarge": "/images/portales/empower-you/empoweryou-bg-dest.webp",
+      "coverImageLogo": "/images/portales/empower-you/empoweryou-dest-portal.webp",
+      "mockup": "/images/portales/empower-you/empoweryou-mockup-portal.webp",
+      "bgColor": "#8f569c"
+    },
+    {
+      "name": "Exxxtremo",
+      "dateCreated": "01/10/2020",
+      "shortDescription": "Contenido de Fitness, y sensualidad.",
+      "lang": "es",
+      "link": "http://test.exxxtremo.moob.club/",
+      "coverImageLarge": "/images/portales/exxxtremo/extremo-dest-bg.webp",
+      "coverImageLogo": "/images/portales/exxxtremo/exxxtremo-portal-dest.webp",
+      "mockup": "/images/portales/exxxtremo/exxxtremo-portal-mockup.webp",
+      "bgColor": "#dc0000"
     }
   ],
   "appGames": [
