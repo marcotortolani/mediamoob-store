@@ -3,7 +3,7 @@ import { rrssData } from '../utils/staticData';
 
 export default function Footer() {
   return (
-    <footer className=' w-full h-36 bg-black flex items-center justify-around'>
+    <footer className=' w-full h-36 hidden lg:flex bg-black items-center justify-around'>
       <div className=' hover:scale-110 transition-all'>
         <a
           className='w-full text-center font-poppinsRegular text-white text-sm md:text-lg '
