@@ -46,7 +46,7 @@ export default function Home() {
 
       <GridReels gridElements={reelsSorted} />
 
-      <div className='w-full h-28'></div>
+      {/* <div className='w-full h-28'></div> */}
     </main>
   );
 }

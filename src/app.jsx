@@ -3,10 +3,11 @@ import * as P from './pages/index';
 import './app.css';
 import Header from './components/Header';
 import DownbarNav from './components/DownbarNav';
+import Footer from './components/Footer';
 
 export function App() {
   return (
-    <div className=' w-full overflow-x-hidden flex justify-center'>
+    <div className=' w-full overflow-x-hidden flex flex-col items-center'>
       <HashRouter>
         <Header />
         <Routes>
@@ -19,6 +20,7 @@ export function App() {
         </Routes>
         <DownbarNav />
       </HashRouter>
+      <Footer />
     </div>
   );
 }
