@@ -274,6 +274,28 @@
       "coverImageLogo": "/images/portales/exxxtremo/exxxtremo-portal-dest.webp",
       "mockup": "/images/portales/exxxtremo/exxxtremo-portal-mockup.webp",
       "bgColor": "#dc0000"
+    },
+    {
+      "name": "Digital House",
+      "dateCreated": "29/02/2024",
+      "shortDescription": "Te ayudamos a construir tu camino digital.",
+      "lang": "es",
+      "link": "http://test.digitalhouse.moob.club/",
+      "coverImageLarge": "/images/portales/digital-house/digitalhouse-destacada-banner.webp",
+      "coverImageLogo": "/images/portales/digital-house/digital-house-dest-portal.webp",
+      "mockup": "/images/portales/digital-house/digital-house-site-mockup.webp",
+      "bgColor": "#b60042"
+    },
+    {
+      "name": "Flexflix",
+      "dateCreated": "29/02/2024",
+      "shortDescription": "Contenido educativo con copilotos de IA.",
+      "lang": "es",
+      "link": "http://es.test.flexflix.moob.club/",
+      "coverImageLarge": "/images/portales/flexflix/bg-dest-flexflix.webp",
+      "coverImageLogo": "/images/portales/flexflix/flexflix-dest-portal.webp",
+      "mockup": "/images/portales/flexflix/flexflix-mockup-portal.webp",
+      "bgColor": "#19194f"
     }
   ],
   "appGames": [
